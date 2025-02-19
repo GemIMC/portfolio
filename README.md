@@ -1,4 +1,4 @@
-# Job Title
+# Data Scientist
 
 ### Education
 DipHE in Film and Television Studies
