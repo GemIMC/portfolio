@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggles = document.querySelectorAll(".toggle-section");
+        
+            toggles.forEach(toggle => {
+                toggle.addEventListener("click", function () {
+                    const content = this.nextElementSibling;
+                    content.classList.toggle("hidden");
+                    this.classList.toggle("active");
+                });
+            });
+        });
+        </script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the HTML ONLY version of Gemma Munro-Collins' resume">
+    <meta name="author" content="Gemma">
+    <meta name="keywords" content="HTML, resume, Gemma Munro-Collins">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <!-- CSS Styles -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body class="creative">
+
+    <!-- HEADER -->
+
+    <!-- <nav></nav> -->
+
+    <header>
+    <h1>Gemma Munro-Collins</h1>
+    <h3>gmunrocollins@gmail.com | (+44)7869 898 576 | London, UK</h3>
+</header>
+
+<!-- START OF MAIN -->
+<main>
+
+    <!-- EDUCATION -->
+
+    <article>
+    <div class="toggle-section">EDUCATION</div>
+    <div class="hidden">
+    <h4>Brunel University - Diploma of Higher Education</h4>
+
+    <p>Sep. ‘10 - Jul. ’13</p>
+    </div>
+
+</article>
+
+    <!-- COURSES -->
+
+        <article>
+        <div class="toggle-section">COURSES</div>
+        <div class="hidden">
+            <table>
+                <tr>
+                    <th>The Web Developer Bootcamp</th>
+                    <th>HTML Fundamentals</th>
+                    <th>PopUp Business School</th>
+                </tr>
+        <td class="completed">Completed</td>
+        <td class="completed">Completed</td>
+        <td class="completed">Completed</td>
+    </tr>
+        <tr>
+        <th>CompTIA A+</th>
+        <th>CompTIA Security+</th>
+        <th>CompTIA Network+</th>
+    </tr>
+        <td class="inprogress">In progress</td>
+        <td class="inprogress">In progress</td>
+        <td class="inprogress">In progress</td>
+    </table>
+</div>
+</article>
+
+
+    <!-- EXPERIENCE -->
+
+    <article>
+    <div class="toggle-section">EXPERIENCE</div>
+    <div class="hidden">
+    <h4>Photography and Video Production</h4>
+    <h4>Producer</h4>
+    <ul>
+        <li>Research ideas and liaise with financial backers to secure funding.</li>
+        <li>Hire key staff and assemble a creative and practical team.</li>
+        <li>Manage the budget, allocate resources, and organise shooting schedules.</li>
+        <li>Ensure compliance with regulations and oversee the project from production to post-production, delivering on time and within budget.</li>
+    </ul>
+
+<p>Oct. ‘21 - Present</p>
+
+    <h4>British Electrical Manufacturing Company (BEMCO)</h4>
+    <h4>Digital Marketing and Events Coordinator</h4>
+    <ul>
+        <li>Developed and executed social media, digital marketing, and email campaigns, while managing related platforms.</li>
+        <li>Created and analysed engaging content, supporting SEO and e-commerce operations.</li>
+        <li>Lead special projects, conducted market research, and monitored competitors.</li>
+        <li>Managed customer database, CRM programs, leads, and collaborated with Sales and IT teams.</li>
+        <li>Coordinated event logistics, maintain sales reports, and oversaw recruitment for KNX training events.</li>
+    </ul>
+
+    <p>Feb. ‘24 - Jul. ‘24</p>
+
+    <h4>Big Sky Studios</h4>
+    <h4>Studio and Front of House Assistant</h4>
+    <ul>
+        <li>Responsible for looking after an assigned studio and clients to ensure smooth operation throughout the day.</li>
+        <li>Coordinating with the lighting, digital, front of house or set departments for additional daily requests.</li>
+    </ul>
+
+    <p>Oct. ‘21 - Nov. ‘23</p>
+    
+    <h4>Society of Caribbean and Africans (SOCA)</h4>
+    <h4>Digital Marketing Specialist</h4>
+    <ul>
+        <li>Developed and executed social media, digital marketing, and email campaigns, ensuring brand consistency and audience engagement.</li>
+        <li>Created and analysed high-performing content, optimising for SEO and increasing visibility.</li>
+        <li>Led special projects, including both in-person and online seminars.</li>
+    </ul>
+
+    <p>Jan. ‘19 - Oct. ‘21</p>
+
+
+    <h4>PlayNetwork</h4>
+    <h4>Customer Service Specialist</h4>
+    <ul>
+        <li>Provided technical support, troubleshoot issues, and managed client communications.</li>
+        <li>Handled invoicing, product returns, and warranty replacements.</li>
+        <li>Ensured a timely resolution of service issues per client agreements.</li>
+        <li>Prioritised tasks for seamless handovers with US and APAC support teams.</li>
+    </ul>
+
+    <p>Jan. ‘18 - Jan. ‘19</p>
+</div>
+
+</article>
+
+    <!-- SKILLS -->
+
+    <article>
+        
+        <div class="toggle-section">SKILLS</div>
+        <div class="hidden">
+
+    <hr>
+
+    <p>Canva, Client Services, CSS, Customer Support, Final Cut Pro, Google Workspace, Hootsuite, HTML, Java, JavaScript, Linux OS, Mac OS, Mailchimp, Photoshop, Premiere Pro, Salesforce, SEO Optimisation, SQL, Windows OS, WordPress</p>
+</div>
+
+</article>
+</main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <h5>Click <a href="https://www.linkedin.com/in/gmunrocollins/">here </a>for LinkedIn</h5>
+    </footer>
+</body>
+</html>
